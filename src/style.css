@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    
+   
+}
+
+.img{
+    border-style: 2rem;
+    width: 100%;
+    border-radius: 4%;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 2rem;
+    padding: 2rem;
+}
+body{
+    font-family: "outfit";
+    background-color: rgba(243, 229, 216, 1);
+    padding: 16vh 20vw;
+    color: rgba(48,47, 45, 1);
+    font-size: 2rem;
+}
+h1{
+    color: rgba(48, 47, 45, 1);
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: "Young Serif";
+   
+}
+p{
+    padding: 1rem;
+    
+    font-size: 16px;
+    font-family: "outfit"
+}
+h2{
+    font-size: 1.2rem;
+    color: rgba(105, 40, 67, 1);
+    text-align: left;
+    padding: 2px;
+    font-family: "outfit";
+}
+.title{
+    font-size: 2rem;
+    color: hsl(30, 10%, 34%);
+    font-family: "Young Serif"
+}
+
+
+li::marker{
+    color: hsl(12, 100%, 27%);
+}
+
+.preparation {
+    border-radius: 1rem;
+    background-color: hsl(330, 100%, 98%);
+    font-size: 1rem;
+}
+
+
+.ingredients{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(242, 232, 216, 2);
+    font-size: 1rem;
+    padding: 1px;
+
+
+}
+.instruction{
+    border-bottom: 1px solid rgba(242, 232, 216, 2);
+    font-size: 1rem;
+}
+
+.info{
+    font-size: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr{
+    border-bottom: 1px solid;
+}
+.value{
+    color:  hsl(12, 100%, 27%);
+}
